@@ -1,0 +1,26 @@
+[debug] [2019-10-06T11:06:21.890Z] ----------------------------------------------------------------------
+[debug] [2019-10-06T11:06:21.926Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ian\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only hosting
+[debug] [2019-10-06T11:06:21.926Z] CLI Version:   7.4.0
+[debug] [2019-10-06T11:06:21.926Z] Platform:      win32
+[debug] [2019-10-06T11:06:21.926Z] Node Version:  v8.9.4
+[debug] [2019-10-06T11:06:21.929Z] Time:          Sun Oct 06 2019 14:06:21 GMT+0300 (E. Africa Standard Time)
+[debug] [2019-10-06T11:06:21.929Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-10-06T11:06:22.100Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-06T11:06:22.101Z] > authorizing via signed-in user
+[debug] [2019-10-06T11:06:22.102Z] [iam] checking project friendlychat-38abf for permissions ["firebase.projects.get"]
+[debug] [2019-10-06T11:06:22.107Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-10-06T11:06:22.108Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-10-06T11:06:23.279Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-06T11:06:23.322Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-38abf:testIamPermissions  
+
+[debug] [2019-10-06T11:06:25.872Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-06T11:06:25.875Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-38abf  
+ 
+[debug] [2019-10-06T11:06:26.942Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-06T11:06:26.957Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-38abf/webApps/-/config  
+ 
+[debug] [2019-10-06T11:06:27.732Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./public
+[info] +  hosting: Local server: http://localhost:5000
